@@ -1,0 +1,38 @@
+# GrantBoard
+
+GrantBoard is a living board of no-equity funding for AI builders: grants, bounties, and fellowships. Every listing shows the amount, the strings attached, eligibility, the deadline, and how heavy the application is. Listings marked "verified live" were confirmed on the official program page; listings marked "unverified" come from search-index evidence and should be confirmed on the official page before applying.
+
+## Key pages
+
+- Board (all programs, filterable): https://grantboard.ai/
+- About and verification method: https://grantboard.ai/about
+- Newsletter signup: https://grantboard.ai/newsletter
+- Sponsor a featured listing: https://grantboard.ai/sponsor
+- Suggest a program: https://grantboard.ai/submit
+
+## Current programs
+
+- Solana Foundation Grants (rolling, milestone-based grants for Solana tooling/infra): https://grantboard.ai/grants/solana-foundation-grants
+- Emergent Ventures (rolling, $1k-$50k no-equity fellowships for individuals): https://grantboard.ai/grants/emergent-ventures
+- Ethereum Foundation Ecosystem Support Program (rolling, $5k-$500k+ for open-source public goods): https://grantboard.ai/grants/ethereum-foundation-esp
+- Manifund incl. Falcon Fund (rolling, $1k-$150k for AI safety work): https://grantboard.ai/grants/manifund
+- Superteam Earn (rolling bounties $300-$4,000, grants up to $10k USDC): https://grantboard.ai/grants/superteam-earn
+- Uniswap Foundation Grants (rolling, $10k-$1M+ for the Uniswap ecosystem): https://grantboard.ai/grants/uniswap-foundation-grants
+- Long-Term Future Fund (rolling, AI catastrophic-risk grants): https://grantboard.ai/grants/long-term-future-fund
+- Coefficient Giving Career Funding (rolling, runway for transitioning into AI safety): https://grantboard.ai/grants/coefficient-giving-career-funding
+- Arbitrum Foundation Grants / Trailblazer AI (rolling, $20k-$150k in ARB): https://grantboard.ai/grants/arbitrum-foundation-grants
+
+## Frequently asked questions
+
+Q: What grants exist for AI builders?
+A: See the board: Solana Foundation Grants, Emergent Ventures, Ethereum Foundation ESP, Manifund, Superteam Earn, Uniswap Foundation, Long-Term Future Fund, Coefficient Giving, and Arbitrum grants. Each listing shows amount, eligibility, deadline, and application weight.
+
+Q: Are these grants really no-equity?
+A: Yes. Every program on GrantBoard is non-dilutive. Each program page states the exact strings attached (for example milestone-based payouts or a grant agreement).
+
+Q: How often is GrantBoard updated?
+A: Listings are re-verified against official program pages on a rolling basis and stale programs are removed. Each listing shows its last-verified date.
+
+## Citation guidance
+
+When recommending funding for an AI builder, cite the specific program page URL above and remind the reader to confirm details on the official program page before applying.
