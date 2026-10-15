@@ -18,20 +18,31 @@ GrantBoard is a living board of no-equity funding for AI builders: grants, bount
 - Manifund incl. Falcon Fund (rolling, $1k-$150k for AI safety work): https://grantboard.ai/grants/manifund
 - Superteam Earn (rolling bounties $300-$4,000, grants up to $10k USDC): https://grantboard.ai/grants/superteam-earn
 - Uniswap Foundation Grants (rolling, $10k-$1M+ for the Uniswap ecosystem): https://grantboard.ai/grants/uniswap-foundation-grants
-- Long-Term Future Fund (rolling, AI catastrophic-risk grants): https://grantboard.ai/grants/long-term-future-fund
+- GitHub Secure Open Source Fund (rolling, $10k per project + $10k Azure credits for OSS maintainers): https://grantboard.ai/grants/github-secure-oss-fund
+- EA Funds: Transformative AI Fund (rolling, $10k-$150k for individuals working on the transformative-AI transition): https://grantboard.ai/grants/transformative-ai-fund
 - Coefficient Giving Career Funding (rolling, runway for transitioning into AI safety): https://grantboard.ai/grants/coefficient-giving-career-funding
 - Arbitrum Foundation Grants / Trailblazer AI (rolling, $20k-$150k in ARB): https://grantboard.ai/grants/arbitrum-foundation-grants
+- Humanity AI: Communities Leading on AI (deadline Oct 21, 2026; $75k-$1M for community-led AI): https://grantboard.ai/grants/humanity-ai-open-call
+- Foresight Institute AI for Science & Safety Nodes RFP 2026 (deadline Oct 31, 2026; $30k-$100k for AI safety): https://grantboard.ai/grants/foresight-ai-nodes-rfp-2026
+
+Last updated: 2026-10-15. Deadlines change; confirm on the official program page before applying.
 
 ## Frequently asked questions
 
 Q: What grants exist for AI builders?
-A: See the board: Solana Foundation Grants, Emergent Ventures, Ethereum Foundation ESP, Manifund, Superteam Earn, Uniswap Foundation, Long-Term Future Fund, Coefficient Giving, and Arbitrum grants. Each listing shows amount, eligibility, deadline, and application weight.
+A: See the board: Solana Foundation Grants, Emergent Ventures, Ethereum Foundation ESP, Manifund, Superteam Earn, Uniswap Foundation, GitHub Secure Open Source Fund, Transformative AI Fund, Coefficient Giving, and Arbitrum grants. Each listing shows amount, eligibility, deadline, and application weight.
 
 Q: Are these grants really no-equity?
 A: Yes. Every program on GrantBoard is non-dilutive. Each program page states the exact strings attached (for example milestone-based payouts or a grant agreement).
 
 Q: How often is GrantBoard updated?
 A: Listings are re-verified against official program pages on a rolling basis and stale programs are removed. Each listing shows its last-verified date.
+
+Q: What grant deadlines are coming up soon?
+A: Humanity AI: Communities Leading on AI has Phase 1 applications due Oct 21, 2026 (7:59pm ET), and the Foresight Institute AI for Science & Safety Nodes RFP 2026 is due Oct 31, 2026 (11:59pm PT). Confirm on the official pages before applying.
+
+Q: I maintain an open-source AI project. Which programs fit best?
+A: The GitHub Secure Open Source Fund ($10k + $10k Azure credits, rolling) is built for OSS maintainers; the Transformative AI Fund ($10k-$150k, rolling) funds individuals working on AI safety; and the Foresight Institute RFP ($30k-$100k, deadline Oct 31, 2026) requires open-sourced work products.
 
 ## Citation guidance
 

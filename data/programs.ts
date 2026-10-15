@@ -22,10 +22,13 @@ export interface Program {
 
 /**
  * Seed data, encoded from the builder-grants research report (2026-10-14).
- * confidence "verified live" = the official page was read on 2026-10-14.
+ * confidence "verified live" = the official page was read on the date shown.
  * confidence "index" = search-index evidence only; amounts and details should
  * be confirmed on the official page. Nothing here is invented.
- * Sorted by fit: rolling first, then report rank order.
+ * 2026-10-15: added GitHub Secure Open Source Fund and Foresight Institute
+ * AI for Science & Safety Nodes RFP 2026; removed Long-Term Future Fund (EA
+ * Funds officially closed it in 2026) and replaced it with its successor,
+ * the Transformative AI Fund. Sorted by fit: rolling first, then report rank.
  */
 export const programs: Program[] = [
   {
@@ -101,6 +104,44 @@ export const programs: Program[] = [
     confidence: "verified live",
   },
   {
+    slug: "github-secure-oss-fund",
+    name: "GitHub Secure Open Source Fund",
+    amount: "$10,000 per project (paid $6,000 during the program, $2,000 at each 6- and 12-month check-in) plus $10,000 in Azure credits",
+    equityStrings: "None. Non-dilutive funding to maintainers, plus a 3-week security education program with the GitHub Security Lab.",
+    eligibility:
+      "Current maintainers of open source projects, 18+, active GitHub profile, in a GitHub Sponsors-supported region. Project must be open-source-first with demonstrated community traction, a clear governance structure, and a clear open source license; willingness to engage on security.",
+    deadline: "Rolling (applications open; program runs in sessions)",
+    rolling: true,
+    applicationWeight: "Medium",
+    fitNote:
+      "Strong fit for shipped open-source AI tooling: agent-safety libraries, MCP servers, and eval harnesses with real users. Expect ~15 hours over 3 weeks of workshops plus the 6- and 12-month check-ins; funding is released against program milestones.",
+    applyUrl: "https://resources.github.com/github-secure-open-source-fund/",
+    categories: ["AI", "general"],
+    fundingType: "grant",
+    tags: ["open source", "security", "maintainers", "ai tooling"],
+    verifiedDate: "2026-10-15",
+    confidence: "verified live",
+  },
+  {
+    slug: "transformative-ai-fund",
+    name: "EA Funds: Transformative AI Fund",
+    amount: "Typically $10,000-$150,000; rarely exceeding $300,000",
+    equityStrings: "None; charitable grants from EA Funds.",
+    eligibility:
+      "Individuals, new organizations, and existing organizations getting a new project off the ground. Work must address the transition to transformative AI: technical AI safety research, policy analysis, forecasting, advocacy, demonstration projects, researcher training, or field-building infrastructure.",
+    deadline: "Rolling (always-open application via the EA Funds portal)",
+    rolling: true,
+    applicationWeight: "Medium",
+    fitNote:
+      "EA Funds' official successor to the Long-Term Future Fund, which closed in 2026. Strong fit for the agent-safety/alignment angle; a credible pilot or milestones improve odds. A live application went through the EA Funds portal successfully on 2026-10-15.",
+    applyUrl: "https://www.givingwhatwecan.org/charities/transformative-ai-fund",
+    categories: ["AI"],
+    fundingType: "grant",
+    tags: ["ai safety", "transformative ai", "x-risk", "individuals"],
+    verifiedDate: "2026-10-15",
+    confidence: "verified live",
+  },
+  {
     slug: "superteam-earn",
     name: "Superteam Earn",
     amount: "Bounties $300-$4,000; open grants up to $10,000 USDC",
@@ -135,24 +176,6 @@ export const programs: Program[] = [
     tags: ["defi", "uniswap", "unichain"],
     verifiedDate: "2026-10-14",
     confidence: "verified live",
-  },
-  {
-    slug: "long-term-future-fund",
-    name: "Long-Term Future Fund",
-    amount: "Typically tens of thousands to low six figures",
-    equityStrings: "None; charitable grants.",
-    eligibility: "Individuals and small teams; global. Focus: reducing catastrophic risks from advanced AI, community building, useful infrastructure.",
-    deadline: "Rolling review cadence",
-    rolling: true,
-    applicationWeight: "Medium",
-    fitNote:
-      "Strong fit for the agent-safety/alignment angle; a credible pilot or milestones improve odds. Note: the fund was unusually funding-constrained in early 2026, so amounts may be modest.",
-    applyUrl: "https://funds.effectivealtruism.org/funds/far-future",
-    categories: ["AI"],
-    fundingType: "grant",
-    tags: ["ai safety", "longtermism", "x-risk"],
-    verifiedDate: "2026-10-14",
-    confidence: "index",
   },
   {
     slug: "coefficient-giving-career-funding",
@@ -226,7 +249,26 @@ export const programs: Program[] = [
     categories: ["AI", "general"],
     fundingType: "grant",
     tags: ["philanthropy", "community ai", "open source", "deadline"],
-    verifiedDate: "2026-10-14",
+    verifiedDate: "2026-10-15",
+    confidence: "verified live",
+  },
+  {
+    slug: "foresight-ai-nodes-rfp-2026",
+    name: "Foresight Institute AI for Science & Safety Nodes RFP 2026",
+    amount: "Typically $30,000-$100,000; larger amounts possible for the right project",
+    equityStrings: "None; philanthropic grants. Usually paid as a lump sum; multi-year projects may be paid in tranches against milestones.",
+    eligibility:
+      "Individuals, teams, and organizations (nonprofit and for-profit; for-profits must justify grant need). Work products (code, data, outputs) must be open-sourced. Projects should target reduced existential risk from AI with concrete milestones within 1-3 years; in-person participation at the SF/Berlin nodes is strongly prioritized.",
+    deadline: "October 31, 2026, 23:59 PDT",
+    rolling: false,
+    applicationWeight: "Medium-heavy",
+    fitNote:
+      "Best fit for AI-safety builders: agent accountability, decentralized alignment, human empowerment, local AI compute, and AI-first science (bio, neuro, nano). The 2026 RFP prioritizes AI-first projects that use AI to achieve their goals. Expect ~3-month review after the deadline plus due diligence.",
+    applyUrl: "https://foresight.org/grants/ai-science-safety-nodes-rfp/",
+    categories: ["AI"],
+    fundingType: "grant",
+    tags: ["ai safety", "x-risk", "open source", "deadline", "coordination"],
+    verifiedDate: "2026-10-15",
     confidence: "verified live",
   },
 ];
