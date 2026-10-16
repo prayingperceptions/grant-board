@@ -1,6 +1,6 @@
 # GrantBoard
 
-GrantBoard is a living board of no-equity funding for AI builders: grants, bounties, and fellowships. Every listing shows the amount, the strings attached, eligibility, the deadline, and how heavy the application is. Listings marked "verified live" were confirmed on the official program page; listings marked "unverified" come from search-index evidence and should be confirmed on the official page before applying.
+GrantBoard is a living board of no-equity funding for AI builders: grants, bounties, and fellowships. Every listing shows the amount, the strings attached, eligibility, the deadline, and how heavy the application is. Listings marked "verified live" were confirmed on the official program page; listings marked "index" come from search-index evidence and should be confirmed on the official page before applying. Stale or closed programs are removed promptly; each listing shows its last-verified date.
 
 ## Key pages
 
@@ -22,15 +22,18 @@ GrantBoard is a living board of no-equity funding for AI builders: grants, bount
 - EA Funds: Transformative AI Fund (rolling, $10k-$150k for individuals working on the transformative-AI transition): https://grantboard.ai/grants/transformative-ai-fund
 - Coefficient Giving Career Funding (rolling, runway for transitioning into AI safety): https://grantboard.ai/grants/coefficient-giving-career-funding
 - Arbitrum Foundation Grants / Trailblazer AI (rolling, $20k-$150k in ARB): https://grantboard.ai/grants/arbitrum-foundation-grants
+- Tether Developer Grants (rolling, ~$1,500-$4,000 per task in USDt or BTC): https://grantboard.ai/grants/tether-developer-grants
+- Z Fellows Program (rolling, $10k for very early technical builders): https://grantboard.ai/grants/z-fellows
+- ChainGPT Web3 AI Grant (rolling, $5k-$10k cash + API credits for Web3 AI projects): https://grantboard.ai/grants/chaingpt-web3-ai-grant
 - Humanity AI: Communities Leading on AI (deadline Oct 21, 2026; $75k-$1M for community-led AI): https://grantboard.ai/grants/humanity-ai-open-call
 - Foresight Institute AI for Science & Safety Nodes RFP 2026 (deadline Oct 31, 2026; $30k-$100k for AI safety): https://grantboard.ai/grants/foresight-ai-nodes-rfp-2026
 
-Last updated: 2026-10-15. Deadlines change; confirm on the official program page before applying.
+Last updated: 2026-10-16. Deadlines change; confirm on the official program page before applying.
 
 ## Frequently asked questions
 
 Q: What grants exist for AI builders?
-A: See the board: Solana Foundation Grants, Emergent Ventures, Ethereum Foundation ESP, Manifund, Superteam Earn, Uniswap Foundation, GitHub Secure Open Source Fund, Transformative AI Fund, Coefficient Giving, and Arbitrum grants. Each listing shows amount, eligibility, deadline, and application weight.
+A: See the board: Solana Foundation Grants, Emergent Ventures, Ethereum Foundation ESP, Manifund, Superteam Earn, Uniswap Foundation, GitHub Secure Open Source Fund, Transformative AI Fund, Coefficient Giving, Arbitrum grants, Tether Developer Grants, Z Fellows, and ChainGPT Web3 AI Grant. Each listing shows amount, eligibility, deadline, and application weight.
 
 Q: Are these grants really no-equity?
 A: Yes. Every program on GrantBoard is non-dilutive. Each program page states the exact strings attached (for example milestone-based payouts or a grant agreement).
@@ -39,10 +42,13 @@ Q: How often is GrantBoard updated?
 A: Listings are re-verified against official program pages on a rolling basis and stale programs are removed. Each listing shows its last-verified date.
 
 Q: What grant deadlines are coming up soon?
-A: Humanity AI: Communities Leading on AI has Phase 1 applications due Oct 21, 2026 (7:59pm ET), and the Foresight Institute AI for Science & Safety Nodes RFP 2026 is due Oct 31, 2026 (11:59pm PT). Confirm on the official pages before applying.
+A: Humanity AI: Communities Leading on AI has Phase 1 applications due Oct 21, 2026 (7:59pm ET; 5 days away as of Oct 16), and the Foresight Institute AI for Science & Safety Nodes RFP 2026 is due Oct 31, 2026 (11:59pm PT; 15 days away). Confirm on the official pages before applying.
 
 Q: I maintain an open-source AI project. Which programs fit best?
 A: The GitHub Secure Open Source Fund ($10k + $10k Azure credits, rolling) is built for OSS maintainers; the Transformative AI Fund ($10k-$150k, rolling) funds individuals working on AI safety; and the Foresight Institute RFP ($30k-$100k, deadline Oct 31, 2026) requires open-sourced work products.
+
+Q: I'm an early builder with just a prototype. Where should I start?
+A: Three light-lift options on the board: Z Fellows ($10k, one-week intensive with founder mentors, rolling), Emergent Ventures ($1k-$50k no-equity fellowship for individuals, rolling), and Tether Developer Grants (~$1,500-$4,000 per completed task, paid in USDt or BTC, rolling). All accept early-stage work without requiring revenue or a company.
 
 ## Citation guidance
 

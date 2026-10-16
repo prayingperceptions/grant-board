@@ -29,6 +29,10 @@ export interface Program {
  * AI for Science & Safety Nodes RFP 2026; removed Long-Term Future Fund (EA
  * Funds officially closed it in 2026) and replaced it with its successor,
  * the Transformative AI Fund. Sorted by fit: rolling first, then report rank.
+ * 2026-10-16: added Z Fellows and ChainGPT Web3 AI Grant (both verified on
+ * official pages); re-verified Humanity AI (still open, Phase 1 due Oct 21)
+ * and Foresight Nodes RFP (still open, due Oct 31). Digital Science Catalyst
+ * Grant 2026 excluded: applications closed Oct 5, 2026.
  */
 export const programs: Program[] = [
   {
@@ -234,14 +238,54 @@ export const programs: Program[] = [
     confidence: "verified live",
   },
   {
+    slug: "z-fellows",
+    name: "Z Fellows Program",
+    amount: "$10,000 in financial support for early builders (reported terms describe an optional equity investment; confirm current terms on the application)",
+    equityStrings:
+      "Not a pure cash grant in its original terms: the $10k was structured as an optional equity investment. Confirm the current funding instrument before accepting.",
+    eligibility:
+      "Technical builders of all ages working on a side project or early startup: students, dropouts, recent grads, and full-time employees welcome. Worldwide; no registered company or revenue required.",
+    deadline: "Rolling (cohorts run continuously; application open now)",
+    rolling: true,
+    applicationWeight: "Light",
+    fitNote:
+      "A one-week intensive plus $10k for very early builders, with heavy AI/dev-tool representation among alumni: founders of Cursor, Cognition, Mintlify, Greptile, Listen Labs, and Bland went through. Strong if you have an agent prototype and want a week with billion-dollar founders as mentors.",
+    applyUrl: "https://zfellows.com",
+    categories: ["AI", "general"],
+    fundingType: "fellowship",
+    tags: ["fellowship", "accelerator", "early builders", "ai", "dev tools"],
+    verifiedDate: "2026-10-16",
+    confidence: "verified live",
+  },
+  {
+    slug: "chaingpt-web3-ai-grant",
+    name: "ChainGPT Web3 AI Grant",
+    amount:
+      "$1M program pool. Research tier: up to $5k in API. Builder tier: up to $10k in API credits + $5k cash. Growth tier: up to $20k in API credits + $10k cash.",
+    equityStrings:
+      "None; grant support is tied to integration milestones. Cash tiers require traction-based milestones, a visible 'Powered by ChainGPT AI' credit, and 12 months of maintained integration.",
+    eligibility:
+      "Blockchain/AI projects that genuinely integrate ChainGPT's Core APIs or SDKs. Cash grants additionally require substantial current active users (≥20k MAU/DAU floor in the cash grant rules) and meaningful technical lift or open-source contributions.",
+    deadline: "Rolling (pipeline: pre-qualification, intro call, PoC, review, production launch, distribution)",
+    rolling: true,
+    applicationWeight: "Medium",
+    fitNote:
+      "Natural fit for agent builders already in crypto: the Builder tier's $5k cash plus $10k credits suits an early MVP, and ChainGPT itself ships open-source agent tooling (AgenticOS). The gate is real: your product must run on ChainGPT's AI.",
+    applyUrl: "https://www.chaingpt.org/web3-ai-grant",
+    categories: ["crypto", "AI"],
+    fundingType: "grant",
+    tags: ["web3", "ai agents", "api credits", "open source"],
+    verifiedDate: "2026-10-16",
+    confidence: "verified live",
+  },
+  {
     slug: "humanity-ai-open-call",
     name: "Humanity AI: Communities Leading on AI",
     amount: "$75,000-$150,000; $150,000-$500,000; $500,000-$1,000,000 (three tiers, $10M total)",
     equityStrings: "None; philanthropic grants with terms up to 3 years.",
     eligibility:
       "U.S.-based initiatives led by a 501(c)(3); individuals may apply through a fiscal sponsor. Issue areas: education, labor and economy, humanities/arts/culture. No research-only, AI-literacy, or adoption-only proposals. Priority to open-weight/open-source AI.",
-    deadline: "Phase 1 due Oct 21, 2026, 4:59pm PT / 7:59pm ET",
-    rolling: false,
+    deadline: "Phase 1 due Oct 21, 2026, 4:59pm PT / 7:59pm ET",    rolling: false,
     applicationWeight: "Heavy",
     fitNote:
       "Real money for community-led AI: workable for a builder who can partner with a 501(c)(3) or fiscal sponsor on a community-owned AI effort. Finalists notified Dec 2026; awards announced spring 2027. Phase 1 is a light application, finalists add budget and measurement plan.",
@@ -249,7 +293,7 @@ export const programs: Program[] = [
     categories: ["AI", "general"],
     fundingType: "grant",
     tags: ["philanthropy", "community ai", "open source", "deadline"],
-    verifiedDate: "2026-10-15",
+    verifiedDate: "2026-10-16",
     confidence: "verified live",
   },
   {
@@ -268,7 +312,7 @@ export const programs: Program[] = [
     categories: ["AI"],
     fundingType: "grant",
     tags: ["ai safety", "x-risk", "open source", "deadline", "coordination"],
-    verifiedDate: "2026-10-15",
+    verifiedDate: "2026-10-16",
     confidence: "verified live",
   },
 ];
