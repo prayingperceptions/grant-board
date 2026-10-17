@@ -33,6 +33,13 @@ export interface Program {
  * official pages); re-verified Humanity AI (still open, Phase 1 due Oct 21)
  * and Foresight Nodes RFP (still open, due Oct 31). Digital Science Catalyst
  * Grant 2026 excluded: applications closed Oct 5, 2026.
+ * 2026-10-17: added Halcyon Futures (career-transition grants up to $500K,
+ * official site read), Thiel Fellowship ($250k, official site read), and the
+ * NLnet Open Internet Stack open call (EU €5k-€50k, deadline Nov 3, 2026;
+ * honest caveat: flagship Restack fund excludes AI projects under 1M users).
+ * Re-verified Humanity AI (Phase 1 still due Oct 21, 4 days) and Foresight
+ * Nodes RFP (still due Oct 31). O'Shaughnessy Fellowships 2026 closed Apr 30;
+ * 2027 cycle reopens Jan 1, 2027: watchlist, not yet listed.
  */
 export const programs: Program[] = [
   {
@@ -279,6 +286,48 @@ export const programs: Program[] = [
     confidence: "verified live",
   },
   {
+    slug: "halcyon-futures",
+    name: "Halcyon Futures",
+    amount:
+      "Career transition grants up to $500K; nonprofit seed grants up to $3M; venture investments up to $5M",
+    equityStrings:
+      "Grants are non-dilutive. The separate VC arm takes equity on its investments; career-transition and seed grants do not.",
+    eligibility:
+      "Founders and builders at career inflection points moving into AI safety/alignment, biosecurity, or critical cybersecurity; new nonprofit projects and mission-driven early-stage companies.",
+    deadline:
+      "Rolling (reach out to hello@halcyonfutures.org; also runs incubations and founder retreats)",
+    rolling: true,
+    applicationWeight: "Light",
+    fitNote:
+      "A founder fund for the exact pivot many AI builders are making: career-transition grants fund the research that becomes an AI safety startup. Goodfire, AIUC, and Transluce all started with Halcyon grants before raising venture rounds.",
+    applyUrl: "https://halcyonfutures.org",
+    categories: ["AI"],
+    fundingType: "grant",
+    tags: ["ai safety", "career transition", "founders", "seed"],
+    verifiedDate: "2026-10-17",
+    confidence: "verified live",
+  },
+  {
+    slug: "thiel-fellowship",
+    name: "Thiel Fellowship",
+    amount: "$250,000 over two years",
+    equityStrings:
+      "None; it is a grant, not an investment. Fellows keep 100% of their work.",
+    eligibility:
+      "Young builders who skip or stop out of college to build new things. Widely reported as 22-and-under; the official page says 'young people'.",
+    deadline: "Rolling (applications accepted continuously)",
+    rolling: true,
+    applicationWeight: "Medium",
+    fitNote:
+      "The classic drop-out-and-build fellowship: $250k plus the Thiel network. The age bar makes it a niche fit; if you are past it, Emergent Ventures and the O'Shaughnessy Fellowships (2027 cycle reopens Jan 1, 2027) are the open-ended alternatives on this board.",
+    applyUrl: "https://thielfellowship.org",
+    categories: ["general"],
+    fundingType: "fellowship",
+    tags: ["fellowship", "young builders", "no equity"],
+    verifiedDate: "2026-10-17",
+    confidence: "verified live",
+  },
+  {
     slug: "humanity-ai-open-call",
     name: "Humanity AI: Communities Leading on AI",
     amount: "$75,000-$150,000; $150,000-$500,000; $500,000-$1,000,000 (three tiers, $10M total)",
@@ -288,12 +337,12 @@ export const programs: Program[] = [
     deadline: "Phase 1 due Oct 21, 2026, 4:59pm PT / 7:59pm ET",    rolling: false,
     applicationWeight: "Heavy",
     fitNote:
-      "Real money for community-led AI: workable for a builder who can partner with a 501(c)(3) or fiscal sponsor on a community-owned AI effort. Finalists notified Dec 2026; awards announced spring 2027. Phase 1 is a light application, finalists add budget and measurement plan.",
+      "Real money for community-led AI: workable for a builder who can partner with a 501(c)(3) or fiscal sponsor on a community-owned AI effort. Finalists notified Dec 2026; awards announced spring 2027. Phase 1 is a light application, finalists add budget and measurement plan. Only 4 days left as of Oct 17: apply before Wednesday evening.",
     applyUrl: "https://humanityai.ai/open-call/",
     categories: ["AI", "general"],
     fundingType: "grant",
     tags: ["philanthropy", "community ai", "open source", "deadline"],
-    verifiedDate: "2026-10-16",
+    verifiedDate: "2026-10-17",
     confidence: "verified live",
   },
   {
@@ -312,7 +361,27 @@ export const programs: Program[] = [
     categories: ["AI"],
     fundingType: "grant",
     tags: ["ai safety", "x-risk", "open source", "deadline", "coordination"],
-    verifiedDate: "2026-10-16",
+    verifiedDate: "2026-10-17",
+    confidence: "verified live",
+  },
+  {
+    slug: "nlnet-open-internet-stack",
+    name: "NLnet Open Internet Stack Open Call",
+    amount: "€5,000-€50,000 for a first grant (7M euro fund through 2030)",
+    equityStrings:
+      "None; non-dilutive grants. All software, hardware, and content must be released under a recognized open license.",
+    eligibility:
+      "Individuals, informal teams, nonprofits, and companies worldwide. EU-funded funds expect a European dimension. AI-generated projects and proposals are not eligible: proposals must be written in the applicant's own words.",
+    deadline: "November 3, 2026, 12:00 CET (noon); bi-monthly cadence continues",
+    rolling: false,
+    applicationWeight: "Light",
+    fitNote:
+      "Honest caveat: the flagship Restack fund explicitly excludes AI projects unless they already have 1M+ active human users. Best on this board for OSS builders doing open internet infrastructure (local-first, open standards, supply-chain security), not pure AI-agent work. Lightweight application: short proposal, quick process.",
+    applyUrl: "https://nlnet.nl/propose",
+    categories: ["general"],
+    fundingType: "grant",
+    tags: ["open source", "deadline", "europe", "infrastructure"],
+    verifiedDate: "2026-10-17",
     confidence: "verified live",
   },
 ];

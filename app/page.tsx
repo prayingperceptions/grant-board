@@ -10,11 +10,15 @@ import ProgramExplorer from "../components/ProgramExplorer";
 const faqs = [
   {
     q: "What grants exist for AI builders?",
-    a: "GrantBoard tracks open, no-equity funding for AI builders: Solana Foundation Grants and Ethereum Foundation ESP for crypto and agent infra, Emergent Ventures and Manifund for individual builders and AI safety work, Superteam Earn bounties for fast cash, plus Uniswap, Arbitrum, Long-Term Future Fund, and Coefficient Giving. Each listing shows the amount, eligibility, deadline, and application weight.",
+    a: "GrantBoard tracks open, no-equity funding for AI builders: Solana Foundation Grants and Ethereum Foundation ESP for crypto and agent infra, Emergent Ventures, Manifund, and the EA Funds Transformative AI Fund for individual builders and AI safety work, Superteam Earn and Tether bounties for fast cash, Z Fellows and the Thiel Fellowship for early builders, Halcyon Futures for AI safety founders, plus Uniswap, Arbitrum, Coefficient Giving, and the GitHub Secure Open Source Fund. Each listing shows the amount, eligibility, deadline, and application weight.",
+  },
+  {
+    q: "Which grant deadlines are closing soon?",
+    a: "As of October 17, 2026: Humanity AI's Communities Leading on AI open call (up to $1M) closes Phase 1 on October 21, 2026; Foresight Institute's AI for Science and Safety Nodes RFP ($30k-$100k) closes October 31, 2026; and NLnet's Open Internet Stack open call (€5k-€50k) closes November 3, 2026. O'Shaughnessy Fellowships ($100k) reopens for its 2027 cycle on January 1, 2027.",
   },
   {
     q: "Are these grants really no-equity?",
-    a: "Every program on this board is non-dilutive: grants, bounties, and fellowships that take no equity. Each program page states the exact strings attached, such as milestone-based payouts or a grant agreement, so you know what you are signing up for before you apply.",
+    a: "Every program on this board is non-dilutive: grants, bounties, and fellowships that take no equity. Each program page states the exact strings attached, such as milestone-based payouts or a grant agreement, so you know what you are signing up for before you apply. Z Fellows is the one exception to double-check: its original terms structured the funding as an optional equity investment.",
   },
   {
     q: "How often is GrantBoard updated?",
